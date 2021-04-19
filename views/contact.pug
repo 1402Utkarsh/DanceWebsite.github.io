@@ -1,0 +1,15 @@
+extends base.pug
+block style 
+    style
+      include contact.css
+block scripts
+  script(src='/script.js')
+block content 
+    h1 Your Contact 
+    div.form
+        form(method="post" action="/contact" class="frm")
+            input(type="text" name="name" placeholder="your name")
+            input(type="phone" name="number" placeholder="your phonenumber")
+            input(type="email" name="email" placeholder="your email")
+            input(type="address" name="address" placeholder="your address")
+            button Submit

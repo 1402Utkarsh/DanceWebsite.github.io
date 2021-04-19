@@ -1,0 +1,447 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+nav {
+    background-color: black;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 20px 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 9px 20px;
+    font-size: 2.0rem;
+    font-weight: bold;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: red;
+    background-color: white;
+    border-radius: 5px;
+}
+
+section#sec1 {
+    height: 350px;
+    background: url('/static/a.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+section#sec1 .div1 {
+    font-size: 1.9rem;
+}
+
+section#sec1 .div2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.6rem;
+}
+
+section#sec2 {
+    height: 400px;
+}
+
+section#sec2 h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+section#sec2 div.card {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 100px;
+}
+
+section#sec2 div.card div.card1 {
+    border: 2px solid black;
+    width: 30%;
+    height: 300px;
+    border-radius: 10px;
+    filter: invert(1);
+    background-color: #49a7a9;
+}
+
+section#sec2 div.card div.card2 {
+    border: 2px solid black;
+    width: 30%;
+    height: 300px;
+    border-radius: 10px;
+    filter: invert(1);
+    background-color: #9f7f7f;
+}
+
+section#sec2 div.card div.card3 {
+    border: 2px solid black;
+    filter: invert(1);
+    width: 30%;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgb(161, 161, 161);
+}
+
+section#sec2 div.card div h2 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+section#sec2 div.card div.card1 div.logo {
+    height: 200px;
+    width: 100px;
+    display: flex;
+    font-family: monospace;
+    align-items: center;
+    font-size: 1.9rem;
+}
+
+section#sec2 div.card div.card1 div.logo img {
+    height: inherit;
+    width: inherit;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+section#sec2 div.card div.card2 div.logo {
+    height: 200px;
+    width: 100px;
+    display: flex;
+    font-family: monospace;
+    align-items: center;
+    font-size: 1.9rem;
+}
+
+section#sec2 div.card div.card2 div.logo img {
+    height: inherit;
+    width: inherit;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+section#sec2 div.card div.card3 div.logo {
+    height: 200px;
+    width: 100px;
+    display: flex;
+    font-family: monospace;
+    align-items: center;
+    font-size: 1.9rem;
+}
+
+section#sec2 div.card div.card3 div.logo img {
+    height: inherit;
+    width: inherit;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+section#sec3 {
+    height: 400px;
+}
+
+section#sec3 h1 {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    text-align: center;
+}
+
+section#sec3 div.logo {
+    display: flex;
+    justify-content: space-around;
+}
+
+section#sec3 div.logo img {
+    height: 250px;
+    width: 18%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+@media only screen and (max-width:1150px) {
+    section#sec2 {
+        height: 290px;
+    }
+    section#sec2 div.card div.card1 {
+        height: 200px;
+    }
+    section#sec2 div.card div.card1 div.logo {
+        height: 100px;
+        width: 50px;
+        display: flex;
+        font-family: monospace;
+        align-items: center;
+        font-size: 1.4rem;
+    }
+    section#sec2 div.card div.card1 div.logo img {
+        height: inherit;
+        width: inherit;
+        margin-left: 70px;
+        margin-top: 10px;
+    }
+    section#sec2 div.card div.card2 {
+        height: 200px;
+    }
+    section#sec2 div.card div.card2 div.logo {
+        height: 100px;
+        width: 50px;
+        display: flex;
+        font-family: monospace;
+        align-items: center;
+        font-size: 1.4rem;
+    }
+    section#sec2 div.card div.card2 div.logo img {
+        height: inherit;
+        width: inherit;
+        margin-left: 70px;
+        margin-top: 10px;
+    }
+    section#sec2 div.card div.card3 {
+        height: 200px;
+    }
+    section#sec2 div.card div.card3 div.logo {
+        height: 100px;
+        width: 50px;
+        display: flex;
+        font-family: monospace;
+        align-items: center;
+        font-size: 1.4rem;
+    }
+    section#sec2 div.card div.card3 div.logo img {
+        height: inherit;
+        width: inherit;
+        margin-left: 70px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    section#sec2 div.card div.card1 div.logo {
+        height: 80px;
+        width: 30px;
+        display: flex;
+        font-family: monospace;
+        /* align-items: center; */
+        font-size: 1.2rem;
+    }
+    section#sec2 div.card div.card1 div.logo p {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    section#sec2 div.card div.card1 div.logo img {
+        height: inherit;
+        width: inherit;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    section#sec2 div.card div.card2 div.logo {
+        height: 80px;
+        width: 30px;
+        display: flex;
+        font-family: monospace;
+        /* align-items: center; */
+        font-size: 1.2rem;
+    }
+    section#sec2 div.card div.card2 div.logo p {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    section#sec2 div.card div.card2 div.logo img {
+        height: inherit;
+        width: inherit;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    section#sec2 div.card div.card3 div.logo {
+        height: 80px;
+        width: 30px;
+        display: flex;
+        font-family: monospace;
+        /* align-items: center; */
+        font-size: 1.2rem;
+    }
+    section#sec2 div.card div.card3 div.logo p {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    section#sec2 div.card div.card3 div.logo img {
+        height: inherit;
+        width: inherit;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width:860px) {
+    section#sec2 div.card div.card1 {
+        height: 150px;
+    }
+    section#sec2 div.card div.card2 {
+        height: 150px;
+    }
+    section#sec2 div.card div.card3 {
+        height: 150px;
+    }
+    section#sec2 div.card div.card1 div.logo {
+        height: 60px;
+        width: 25px;
+        display: flex;
+        font-family: monospace;
+        /* align-items: center; */
+        font-size: 1rem;
+    }
+    section#sec2 div.card div.card1 div.logo p {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    section#sec2 div.card div.card1 div.logo img {
+        height: inherit;
+        width: inherit;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    section#sec2 div.card div.card2 div.logo {
+        height: 60px;
+        width: 25px;
+        display: flex;
+        font-family: monospace;
+        /* align-items: center; */
+        font-size: 1rem;
+    }
+    section#sec2 div.card div.card2 div.logo p {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    section#sec2 div.card div.card2 div.logo img {
+        height: inherit;
+        width: inherit;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    section#sec2 div.card div.card3 div.logo {
+        height: 60px;
+        width: 25px;
+        display: flex;
+        font-family: monospace;
+        /* align-items: center; */
+        font-size: 1rem;
+    }
+    section#sec2 div.card div.card3 div.logo p {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    section#sec2 div.card div.card3 div.logo img {
+        height: inherit;
+        width: inherit;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    body {
+        width: 770px;
+    }
+    nav {
+        width: 770px;
+    }
+    nav ul li a {
+        font-size: 1.5rem;
+    }
+    section#sec2 {
+        height: 500px;
+    }
+    section#sec2 div.card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    section#sec2 div.card div.card1 {
+        width: 500px;
+        height: 150px
+    }
+    section#sec2 div.card div.card1 div.logo {
+        height: inherit;
+        width: inherit;
+        display: flex;
+        padding-bottom: 74px;
+    }
+    section#sec2 div.card div.card1 div.logo img {
+        width: 50px;
+        height: 100px;
+    }
+    section#sec2 div.card div.card1 div.logo p {
+        font-size: 2rem;
+    }
+    section#sec2 div.card div.card2 {
+        width: 500px;
+        height: 150px
+    }
+    section#sec2 div.card div.card2 div.logo {
+        height: inherit;
+        width: inherit;
+        display: flex;
+        padding-bottom: 74px;
+    }
+    section#sec2 div.card div.card2 div.logo img {
+        width: 50px;
+        height: 100px;
+    }
+    section#sec2 div.card div.card2 div.logo p {
+        font-size: 2rem;
+    }
+    section#sec2 div.card div.card3 {
+        width: 500px;
+        height: 150px
+    }
+    section#sec2 div.card div.card3 div.logo {
+        height: inherit;
+        width: inherit;
+        display: flex;
+        padding-bottom: 74px;
+    }
+    section#sec2 div.card div.card3 div.logo img {
+        width: 50px;
+        height: 100px;
+    }
+    section#sec2 div.card div.card3 div.logo p {
+        font-size: 2rem;
+        text-align: center;
+    }
+    section#sec3 {
+        height: 800px
+    }
+    section#sec3 div.logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    section#sec3 div.logo img {
+        height: 180px;
+        width: 70%;
+    }
+    footer {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+    footer {
+        width: 770px;
+    }
+}

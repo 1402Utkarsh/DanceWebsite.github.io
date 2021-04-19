@@ -1,0 +1,45 @@
+doctype html
+html
+  head
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    style
+      include style.css
+  body
+    nav 
+        ul 
+            li #[a(href="/") Home]
+            li #[a(href="/") About] 
+            li #[a(href="/") Contact]
+            li #[a(href="/") Info]
+    section#sec1 
+        div.div1 Welcome To Dance India Club
+        div.div2 Eat Dance Sleep Repeat
+    section#sec2 
+        h1 Step by Step 
+        div.card
+          div.card1
+            h2 Beginner
+            div.logo
+              img(src='/static/d1.jpg') 
+              p Basics is Everything
+          div.card2
+            h2 Intermediate
+            div.logo
+              img(src='/static/d2.jpg')
+              p Start learning more
+          div.card3
+            h2 Advanced
+            div.logo
+              img(src='/static/d3.png')
+              p Become a Pro
+    section#sec3 
+      h1 Our   Sponsors
+      div.logo
+        img(src="/static/p1.png")
+        img(src="/static/p2.png")
+        img(src="/static/p3.png")
+        img(src="/static/p4.png")
+    footer 
+        | Copyright © Dance India CLub.... All Rights Reserved   
+    script
+      include script.js

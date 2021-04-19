@@ -1,0 +1,36 @@
+extends base.pug
+block style 
+    style
+      include style.css
+block scripts
+  script(src='/script.js')
+
+block content
+    section#sec1 
+        div.div1 Welcome To Dance India Club
+        div.div2 Eat Dance Sleep Repeat
+    section#sec2 
+        h1 Step by Step 
+        div.card
+          div.card1
+            h2 Beginner
+            div.logo
+              img(src='/static/d1.jpg') 
+              p Basics is Everything
+          div.card2
+            h2 Intermediate
+            div.logo
+              img(src='/static/d2.jpg')
+              p Start learning more
+          div.card3
+            h2 Advanced
+            div.logo
+              img(src='/static/d3.png')
+              p Become a Pro
+    section#sec3 
+      h1 Our   Sponsors
+      div.logo
+        img(src="/static/p1.png")
+        img(src="/static/p2.png")
+        img(src="/static/p3.png")
+        img(src="/static/p4.png")
